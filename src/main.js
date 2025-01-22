@@ -79,6 +79,8 @@ const inicializarJuego = () =>{
     creaDeck();
     cartel.classList.remove('finalb');
 }
+  
+ /* eventos de botones*/ 
 /* boton de detener */
 botones[2].addEventListener('click', () =>{botones[1].disabled = true; computadoraJuega();});
 /* boton pedir nuevo juego */
@@ -96,5 +98,5 @@ botones[1].addEventListener('click', () => {
        // enviar la funcion por referencia con el nombre que uno desee
      //return {inicio: inicializarJuego};
      // enviar directamente
-    return { inicializarJuego };
+   // return { miModulo };
 })()

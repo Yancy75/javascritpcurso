@@ -16,7 +16,9 @@ html, body {
     text-transform: capitalize;
     font-weight: 600;
     text-shadow: 1px 1px black;
+    margin-right: 0.1rem;
 }
+
 h2{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +29,7 @@ h2{
 .carta{
     position: relative;
     max-width: 150px;
-    left: 100px;
+    left: 90px;
     margin-left: -75px;
     transition: 0.5s all;
 }
@@ -38,10 +40,14 @@ h2{
     max-width: 180px;
 }
 #jugador-cartas, #computadora-cartas{
-    height: 230px;
+    height: 250px;
     display: flex;
-    align-items: center;
+    align-items: start;
     /*max-height: 230px;*/
+        box-shadow: 2px 0px 5px inset black;
+    border-radius: 5PX;
+    padding: 10px 0;
+    background-image: linear-gradient(90deg, #59725a, #f9f9f6);
 }
 .row{
     margin-left: 0px !important;
